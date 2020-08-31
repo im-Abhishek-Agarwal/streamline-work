@@ -105,7 +105,7 @@
           <label>Naam h ? </label>
         </td>
         <td>
-          <input type="text" name="" value="lawda lassan">
+          <input type="text" name="" placeholder="lawda lassan">
         </td>
       </tr>
       <tr>
@@ -121,7 +121,7 @@
           <label>Kaha par h ?</label>
         </td>
         <td>
-          <input type="text" name="" value="chut sheher">
+          <input type="text" name="" placeholder="chut sheher">
         </td>
       </tr>
       <tr>
@@ -137,7 +137,10 @@
           <label>Kitna leti h ek raat ka ?</label>
         </td>
         <td>
-          <input type="range" name="" value="">
+          <p style="margin-left:5px;">
+            Free
+          <input style="width:200px;" type="range" name="" value="">
+          10 Rs.</p>
         </td>
       </tr>
       <tr>
@@ -145,10 +148,12 @@
           <label>Nude daal (Sample) </label>
         </td>
         <td>
-          <input type="file" name="" value="4K">
+          <label for="files" class="myButton">4K hona chaiye</label>
+          <input id="files" style="visibility:hidden;" type="file">
         </td>
       </tr>
     </table>
+    <br>
     <br>
     <input class="myButton" type="submit" name="" value="me randi banne ko tyaar hu">
   </form>
